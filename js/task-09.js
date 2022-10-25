@@ -11,7 +11,7 @@ bntChange.addEventListener('click', randomColor)
 function randomColor(){
   body.style.backgroundColor = getRandomHexColor()
 
-  spanColor.textContent = getRandomHexColor()
+  spanColor.textContent = (body.style.backgroundColor)
 }
 
 
